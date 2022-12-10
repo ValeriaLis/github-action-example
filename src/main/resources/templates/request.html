@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Request</title>
+</head>
+<body>
+<style>
+  body{
+    background-color: lightskyblue;
+  }
+
+  .container{
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .block{
+    box-shadow: 5px 10px 10px -5px #808080;
+    margin-top: 25px;
+    background-color: #fff;
+    min-width: 30vw;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    padding: 0 10px;
+  }
+  .mybtn{
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #ff0000;
+    cursor: pointer;
+  }
+  a{
+    text-decoration: none;
+    color: black;
+  }
+</style>
+
+<div class="container">
+  <div class="block">
+    <div class="text"></div>
+    <div class="mydivbtn"><button class = "mybtn" onclick="clickOnMyBtn()">Request</button></div>
+    <div class="request-left"></div>
+    <div class="currency"></div>
+  </div>
+</div>
+
+<script src = "request.js"></script>
+</body>
+</html>
